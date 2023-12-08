@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "./Header.css";
 import { Fade } from "react-reveal";
-import { NavLink, Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import "./Header.css";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -23,13 +23,27 @@ class Header extends Component {
       <Fade top duration={1000} distance="20px">
         <SeoHeader />
         <div>
-          <header className="header">
+          <header
+            className="header"
+            // style={{
+            //   display: "flex",
+            //   // flexDirection: "column",
+            //   justifyContent: "center",
+            // }}
+          >
             <NavLink to={link} tag={Link} className="logo">
-              <span style={{ color: theme.text }}> &lt;</span>
-              <span className="logo-name" style={{ color: theme.text }}>
+              <div style={{ display: "flex", alignItems: "center" }}>
+                <span style={{ color: theme.text }}> &lt;</span>
+                {/* <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
-              </span>
-              <span style={{ color: theme.text }}>/&gt;</span>
+              </span> */}
+                <img
+                  src={require(`../../assests/images/${greeting.signature_path}`)}
+                  alt=""
+                  style={{ maxHeight: "10vh" }}
+                />{" "}
+                <span style={{ color: theme.text }}>/&gt;</span>
+              </div>
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
@@ -84,7 +98,7 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/opensource"
                   tag={Link}
@@ -95,7 +109,7 @@ class Header extends Component {
                 >
                   Open Source
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/contact"

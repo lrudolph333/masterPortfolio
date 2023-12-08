@@ -1,7 +1,6 @@
 {
   "private": true,
   "name": "Trey's Portfolio",
-  "homepage": "https://github.com/lrudolph333",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",

@@ -2,16 +2,16 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Trey's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "An entrepreneur at heart with a proven track record of jump-starting projects to completion, organizing teams to achieve more together, and prioritizing marginalized communities.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Trey Rudolph Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -20,7 +20,8 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Trey Rudolph",
-  logo_name: "AshutoshHathidara",
+  logo_name: "Trey   III",
+  signature_path: "signature.png",
   nickname: "Trey Good",
   subTitle:
     "An entrepreneur at heart with a proven track record of jump-starting projects to completion, organizing teams to achieve more together, and prioritizing marginalized communities.",
@@ -206,7 +207,7 @@ const skills = {
       title: "GPT Integrations",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Integrating valuable GPT functionalities to exsiting websites and apps",
+        "⚡ Integrating valuable GPT functionality to exsiting websites and apps",
         "⚡ Advanced prompt engineering to fine-tune GPT responses",
         "⚡ Automating developer workflows with GPT Assitants",
       ],
@@ -648,9 +649,13 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+
+    // profile_image_path: "TreySeniorPhoto.jpeg",
+    profile_image_path: "TreySeniorPhoto2.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Feel free to message me on any social media. I check Instagram and my email the most.",
+    description2:
+      "I can help with workshopping ideas, advice for project development, and share other resources that have helped me on my journey.",
   },
   blogSection: {
     title: "Blogs",
