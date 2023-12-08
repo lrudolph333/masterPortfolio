@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Fade } from "react-reveal";
 import { Link, NavLink } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 import "./Header.css";
 
@@ -38,7 +38,7 @@ class Header extends Component {
                 {greeting.logo_name}
               </span> */}
                 <img
-                  src={require(`../../assests/images/${greeting.signature_path}`)}
+                  src={require(`../../assests/images/signature.png`)}
                   alt=""
                   style={{ maxHeight: "10vh" }}
                 />{" "}
