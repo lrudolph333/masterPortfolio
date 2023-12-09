@@ -1,6 +1,6 @@
 import React from "react";
-import "./CompetitiveSites.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import "./CompetitiveSites.css";
 
 class CompetitiveSites extends React.Component {
   render() {
@@ -25,12 +25,20 @@ class CompetitiveSites extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <span
-                      className="iconify"
-                      data-icon={logo.iconifyClassname}
-                      style={logo.style}
-                      data-inline="false"
-                    ></span>
+                    {logo.imageName ? (
+                      <img
+                        src={require(`../../assests/images/${logo.imageName}`)}
+                        alt=""
+                        style={{ borderRadius: "50%", height: "45px" }}
+                      />
+                    ) : (
+                      <span
+                        className="iconify"
+                        data-icon={logo.iconifyClassname}
+                        style={logo.style}
+                        data-inline="false"
+                      ></span>
+                    )}
                   </a>
                 </li>
               </OverlayTrigger>

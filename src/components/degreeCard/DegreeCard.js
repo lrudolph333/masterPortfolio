@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
+import "./DegreeCard.css";
 
 class DegreeCard extends Component {
   render() {
@@ -15,6 +15,7 @@ class DegreeCard extends Component {
                 style={{
                   maxWidth: "100%",
                   maxHeight: "100%",
+                  borderRadius: "50%",
                   transform: "scale(0.9)",
                 }}
                 src={require(`../../assests/images/${degree.logo_path}`)}

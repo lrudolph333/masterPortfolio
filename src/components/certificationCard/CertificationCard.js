@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./CertificationCard.css";
 import { Fade } from "react-reveal";
+import "./CertificationCard.css";
 
 class CertificationCard extends Component {
   render() {
@@ -24,6 +24,8 @@ class CertificationCard extends Component {
                   className="logo_img"
                   src={require(`../../assests/images/${certificate.logo_path}`)}
                   alt={certificate.alt_name}
+                  // style={{object-fit: "contain"}}
+                  // style={{ objectFit: "cover", width: "101%" }}
                 />
               </div>
               <div className="content-details fadeIn-top">
