@@ -32,13 +32,6 @@ const greeting = {
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
@@ -49,12 +42,12 @@ const socialMediaLinks = [
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/trey-r-link/",
-    ˇ: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/channel/UCWL9B-uowtYEHcR2cdzYkUQ",
+    link: "https://www.youtube.com/channel/UCWDtHf2Eh0opMAP-6DF1rgQ",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
@@ -344,7 +337,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have been blessed to work at a variety of industry-leading companies and mission-focused non-profits through high-school and college, learning many lessons along the way. .",
+    "I have had the pleasure of working with a variety of industry-leading companies, mission-focused non-profits, and endeavors of my mine through high-school and college. These have taught me numerous invaluable lessons.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -424,8 +417,7 @@ const experience = {
           color: "#D83B0199",
         },
         {
-          title:
-            "Autonomous Vehicle Development Technical Project Manager Intern",
+          title: "Autonomous Vehicle Dev Technical Project Manager Intern",
           company: "Cruise",
           company_url: "https://getcruise.com/",
           logo_path: "cruise.jpeg",
@@ -452,15 +444,37 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Vision House Student Volunteer",
-          company: "Vision House",
-          company_url: "https://visionhouse.org/",
-          logo_path: "visionhouse.png",
-          duration: "April 2019 - May 2019",
-          location: "Renton, WA",
+          title: "President",
+          company: "Black Men's Coalition",
+          company_url: "https://www.instagram.com/bmc_washu/",
+          logo_path: "bmc_logo.png",
+          duration: "May 2022 - May 2023",
+          location: "St. Louis, MO",
           description:
-            "3-week full-time volunteer, assisting with maintenance duties and daycare functions as part of an experiential senior project .",
-          color: "#4285F4",
+            "Oversee and drive the organization of programming aimed at facilitating brotherhood, stimulating personal development, and supporting academic excellence amongst Black Men at WashU",
+          color: "#0C9D58",
+        },
+        {
+          title: "Co-founder and Team Lead",
+          company: "Eastside Change Coalition",
+          company_url: "https://eastsidechangecoalition.org/",
+          logo_path: "ecc.jpeg",
+          duration: "May 2020 - April 2021",
+          location: "Seattle area, WA",
+          description:
+            "Led the Community Action team of a black and brown youth-led organization aimed at restructuring systems of oppression in my local community through policy demands, education, and community engagement.",
+          color: "#0C9D58",
+        },
+        {
+          title: "Vice-President",
+          company: "Association of Black Students",
+          company_url: "https://www.instagram.com/abswashu/",
+          logo_path: "absLogo.png",
+          duration: "May 2020 - May 2021",
+          location: "St. Louis, MO",
+          description:
+            "Assisted president in running executive meetings, garnered off-campus support for ABS happenings, and faciliated elections for ABS.",
+          color: "#0C9D58",
         },
 
         {
@@ -474,6 +488,39 @@ const experience = {
             "Led team to develop and present prototype of full-stack React application to improve visibility of the location of client’s mail-ordered prescriptions for Magellan Health. Shared Github repository to IT department for full integration.",
           color: "#0C9D58",
         },
+        {
+          title: "Far West Region Teen President",
+          company: "Jack and Jill of America",
+          company_url: "https://www.jackandjillinc.org/",
+          logo_path: "jackandjill.jpeg",
+          duration: "July 2018 - July 2019",
+          location: "West Coast, USA",
+          description:
+            "Elected to presidency, organized, and administered conferences and events to improve the experience of over 1000 teens across the western United States.",
+          color: "#0C9D58",
+        },
+        {
+          title: "Black Student Union Co-founder and Leader",
+          company: "The Overlake School",
+          company_url: "https://overlake.org/",
+          logo_path: "overlake.jpeg",
+          duration: "Sept 2017 - May 2019",
+          location: "Redmond, WA",
+          description:
+            "Organized sessions to educate the entire student body about the state of black America and build a sense of community and engagement amongst the black student body.",
+          color: "#0C9D58",
+        },
+        {
+          title: "Vision House Student Volunteer",
+          company: "Vision House",
+          company_url: "https://visionhouse.org/",
+          logo_path: "visionhouse.png",
+          duration: "April 2019 - May 2019",
+          location: "Renton, WA",
+          description:
+            "3-week full-time volunteer, assisting with maintenance duties and daycare functions as part of an experiential senior project .",
+          color: "#4285F4",
+        },
       ],
     },
   ],
@@ -483,14 +530,14 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects start from scratch and always reach completion. Whatever tech stack I need, I learn, and carry forward that knowledge into my next idea.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
   description:
-    "I have worked on and published a few research papers and publications of my own.",
+    "I have published a few pieces on different topics, and have been featured for some of my projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -498,44 +545,46 @@ const publications = {
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "Cache-it Value Proposition Article",
+      createdAt: "2023-06-08T16:26:54Z",
+      description:
+        "Article I wrote on emergent AR scavenger hunt value proposition. ",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://medium.com/@trey_good/how-cache-it-revitalizes-the-scavenger-hunt-experience-to-boost-brand-engagement-6c8c9a434f39?source=social.linkedin",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "Article Spotlight on Trey Rudolph with FreeEats",
+      createdAt: "2021-07-30T16:26:54Z",
+      description: "Article spotlighting Trey Rudolph and his work on FreeEats",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://skandalaris.wustl.edu/blog/2021/07/30/trey-rudolph-freeeats/",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
+      name: "A Whole Heart",
       createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      description:
+        "Accepted Submission to WashU's Black Anthology Digital Collection ",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://padlet.com/blackanthology/essential-s-vkfuomh8azvs51gk/wish/1012911457",
     },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
+    // {
+    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
+    //   name: "Artificial Intelligence Paper",
+    //   createdAt: "2020-03-06T16:26:54Z",
+    //   description: "Paper Written on Artificial Intelligence published in xyz ",
+    //   url:
+    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    // },
+    // {
+    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
+    //   name: "Artificial Intelligence Paper",
+    //   createdAt: "2020-03-06T16:26:54Z",
+    //   description: "Paper Written on Artificial Intelligence published in xyz ",
+    //   url:
+    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+    // },
   ],
 };
 
