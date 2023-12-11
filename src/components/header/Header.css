@@ -65,6 +65,7 @@
   float: right;
   padding: 28px 20px;
   position: relative;
+  background-color: azure;
   user-select: none;
 }
 
