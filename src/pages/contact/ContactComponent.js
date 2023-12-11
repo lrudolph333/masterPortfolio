@@ -32,7 +32,7 @@ class Contact extends Component {
               <div className="contact-heading-text-div">
                 <h1
                   className="contact-heading-text"
-                  style={{ color: theme.text }}
+                  style={{ color: theme.lightAccent }}
                 >
                   {ContactData["title"]}
                 </h1>

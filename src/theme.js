@@ -165,6 +165,8 @@ export const materialDarkTheme = {
   jacketColor: "#8eacbb",
   headerColor: "#34515e",
   splashBg: "#4f5b62",
+  darkAccent: "#55198B",
+  lightAccent: "#D3BFE5",
 };
 
 export const materialLightTheme = {

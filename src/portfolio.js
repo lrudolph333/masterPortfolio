@@ -373,7 +373,7 @@ const experience = {
   subtitle: "Work, Internship and Volunteership",
   description:
     "I have had the pleasure of working with a variety of industry-leading companies, mission-focused non-profits, and endeavors of my mine through high-school and college. These have taught me numerous invaluable lessons.",
-  header_image_path: "experience.svg",
+  header_image_path: "experience.png",
   sections: [
     {
       title: "Work",
@@ -566,7 +566,8 @@ const projectsHeader = {
   title: "Projects",
   description:
     "My projects start from scratch and always reach completion. Whatever tech stack I need, I learn, and carry forward that knowledge into my next idea.",
-  avatar_image_path: "projects_image.svg",
+  avatar_image_path: "projects.png",
+  // avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {

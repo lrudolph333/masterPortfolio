@@ -74,7 +74,7 @@ class ExperienceCard extends Component {
                 <div>
                   <h2
                     className="experience-card-title"
-                    style={{ color: theme.text }}
+                    style={{ color: theme.lightAccent }}
                   >
                     {experience["title"]}
                   </h2>

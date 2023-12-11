@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./Educations.css";
+import { Fade } from "react-reveal";
 import DegreeCard from "../../components/degreeCard/DegreeCard.js";
 import { degrees } from "../../portfolio";
-import { Fade } from "react-reveal";
+import "./Educations.css";
 
 class Educations extends Component {
   render() {
@@ -11,7 +11,10 @@ class Educations extends Component {
       <div className="main" id="educations">
         <div className="educations-header-div">
           <Fade bottom duration={2000} distance="20px">
-            <h1 className="educations-header" style={{ color: theme.text }}>
+            <h1
+              className="educations-header"
+              style={{ color: theme.lightAccent }}
+            >
               Degrees Received
             </h1>
           </Fade>

@@ -6,7 +6,6 @@ import TopButton from "../../components/topButton/TopButton";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import { experience } from "../../portfolio.js";
 import "./Experience.css";
-import ExperienceImg from "./ExperienceImg";
 
 // const experience = {
 // 	title: "Experience",
@@ -154,16 +153,16 @@ class Experience extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
-                {/* <img
-									src={require(`../../assets/images/${experience["header_image_path"]}`)}
-									alt=""
-								/> */}
-                <ExperienceImg theme={theme} />
+                <img
+                  src={require(`../../assets/images/${experience["header_image_path"]}`)}
+                  alt=""
+                />
+                {/* <ExperienceImg theme={theme} /> */}
               </div>
               <div className="experience-heading-text-div">
                 <h1
                   className="experience-heading-text"
-                  style={{ color: theme.text }}
+                  style={{ color: theme.lightAccent }}
                 >
                   {experience.title}
                 </h1>
