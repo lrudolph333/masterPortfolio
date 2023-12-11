@@ -229,7 +229,7 @@ const skills = {
       skills: [
         "⚡ Writing secure  Solidity Smart Contracts using OpenZeppelin building blocks",
         "⚡ Deploying NFT collections live to Ethereum L2 chains",
-        "⚡ Building response, intuitive Decentralized Apps for all users",
+        "⚡ Building responsive, intuitive Decentralized Apps for all types of users",
       ],
       softwareSkills: [
         {
