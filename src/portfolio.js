@@ -81,7 +81,8 @@ const skills = {
   data: [
     {
       title: "Full Stack Development",
-      fileName: "FullStackImg",
+      imagePath: "fullStack.png",
+      // fileName: "FullStackImg",
       skills: [
         "⚡ Launching + maintaing mobile applications using React Native with 1000+ users",
         "⚡ Creating application backend in Node, Firebase, and Express",
@@ -149,7 +150,7 @@ const skills = {
     },
     {
       title: "Cloud Data Streaming Architecture",
-      fileName: "CloudInfraImg",
+      imagePath: "cloud_infra.png",
       skills: [
         "⚡ Upgrading robustness of mission-critical production Kafka clusters",
         "⚡ Deploying automation solutions via Jenkins pipelines",
@@ -187,18 +188,12 @@ const skills = {
             color: "#1488C6",
           },
         },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
       ],
     },
     {
       title: "GPT Integrations",
-      fileName: "DataScienceImg",
+      // fileName: "DataScienceImg",
+      imagePath: "gpt_integrations.png",
       skills: [
         "⚡ Integrating valuable GPT functionality to exsiting websites and apps",
         "⚡ Advanced prompt engineering to fine-tune GPT responses",
@@ -209,7 +204,7 @@ const skills = {
           skillName: "OpenAI",
           fontAwesomeClassname: "simple-icons:openai",
           style: {
-            backgroundColor: "white",
+            backgroundColor: "transparent",
             color: "#D00000",
           },
         },
@@ -224,6 +219,46 @@ const skills = {
         {
           skillName: "Deeplearning",
           imageSrc: "deeplearning_ai_logo.png",
+        },
+      ],
+    },
+    {
+      title: "Web3 Development",
+      imagePath: "web3_dev.png",
+      // fileName: "DataScienceImg",
+      skills: [
+        "⚡ Writing secure  Solidity Smart Contracts using OpenZeppelin building blocks",
+        "⚡ Deploying NFT collections live to Ethereum L2 chains",
+        "⚡ Building response, intuitive Decentralized Apps for all users",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Ethereum",
+          fontAwesomeClassname: "simple-icons:ethereum",
+          style: {
+            backgroundColor: "transparent",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "Solidity",
+          fontAwesomeClassname: "simple-icons:solidity",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Metamask",
+          imageSrc: "metamask.png",
+        },
+        {
+          skillName: "OpenZeppelin",
+          fontAwesomeClassname: "simple-icons:openzeppelin",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
         },
       ],
     },

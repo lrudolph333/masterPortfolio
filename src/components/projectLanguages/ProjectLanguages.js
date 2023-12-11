@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./ProjectLanguages.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import "./ProjectLanguages.css";
 
 class ProjectLanguages extends Component {
   render() {
@@ -27,6 +27,7 @@ class ProjectLanguages extends Component {
                       className="iconify"
                       data-icon={logo.iconifyClass}
                       data-inline="false"
+                      style={{ color: "white" }}
                     ></span>
                   </li>
                 </OverlayTrigger>

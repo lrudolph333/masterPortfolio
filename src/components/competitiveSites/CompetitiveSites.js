@@ -27,7 +27,7 @@ class CompetitiveSites extends React.Component {
                   >
                     {logo.imageName ? (
                       <img
-                        src={require(`../../assests/images/${logo.imageName}`)}
+                        src={require(`../../assets/images/${logo.imageName}`)}
                         alt=""
                         style={{ borderRadius: "50%", height: "45px" }}
                       />

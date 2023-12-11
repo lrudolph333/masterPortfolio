@@ -38,7 +38,7 @@ class Header extends Component {
                 {greeting.logo_name}
               </span> */}
                 <img
-                  src={require(`../../assests/images/signature.png`)}
+                  src={require(`../../assets/images/signature.png`)}
                   alt=""
                   style={{ maxHeight: "10vh" }}
                 />{" "}

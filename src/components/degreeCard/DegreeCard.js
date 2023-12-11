@@ -18,7 +18,7 @@ class DegreeCard extends Component {
                   borderRadius: "50%",
                   transform: "scale(0.9)",
                 }}
-                src={require(`../../assests/images/${degree.logo_path}`)}
+                src={require(`../../assets/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
               />
             </div>

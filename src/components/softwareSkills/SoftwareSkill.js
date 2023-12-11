@@ -1,6 +1,6 @@
 import React from "react";
-import "./SoftwareSkill.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import "./SoftwareSkill.css";
 
 class SoftwareSkill extends React.Component {
   render() {
@@ -39,6 +39,8 @@ class SoftwareSkill extends React.Component {
                       <img
                         className="skill-image"
                         style={logo.style}
+                        // src={"./src/assets/images/metamask.png"}
+                        // src={`../assets/images/${logo.imageSrc}`}
                         src={`${process.env.PUBLIC_URL}/skills/${logo.imageSrc}`}
                         alt={logo.skillName}
                       />

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "./Skills.css";
+import { Fade } from "react-reveal";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
-import { Fade } from "react-reveal";
-import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
+import DataScienceImg from "./DataScienceImg";
 import DesignImg from "./DesignImg";
+import FullStackImg from "./FullStackImg";
+import "./Skills.css";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
@@ -28,11 +28,15 @@ class SkillSection extends Component {
             <div key={i} className="skills-main-div">
               <Fade left duration={2000}>
                 <div className="skills-image-div">
-                  {/* <img
-                    alt="Ashutosh is Analysing Data"
-                    src={require(`../../assests/images/${skill.imagePath}`)}
-                  ></img> */}
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  {skill.fileName ? (
+                    <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  ) : (
+                    <img
+                      alt="Ashutosh is Analysing Data"
+                      // src={require(`../../assets/images/fullStack.png`)}
+                      src={require(`../../assets/images/${skill.imagePath}`)}
+                    ></img>
+                  )}
                 </div>
               </Fade>
 

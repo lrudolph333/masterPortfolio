@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
+import { Fade } from "react-reveal";
 import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/Header";
 import TopButton from "../../components/topButton/TopButton";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
-import "./Experience.css";
 import { experience } from "../../portfolio.js";
-import { Fade } from "react-reveal";
+import "./Experience.css";
 import ExperienceImg from "./ExperienceImg";
 
 // const experience = {
@@ -155,7 +155,7 @@ class Experience extends Component {
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
                 {/* <img
-									src={require(`../../assests/images/${experience["header_image_path"]}`)}
+									src={require(`../../assets/images/${experience["header_image_path"]}`)}
 									alt=""
 								/> */}
                 <ExperienceImg theme={theme} />
