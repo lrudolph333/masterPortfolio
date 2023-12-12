@@ -1,18 +1,17 @@
-import React, { useState, useEffect } from "react";
-import ApolloClient from "apollo-boost";
-import { gql } from "apollo-boost";
-import "./Project.css";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
+import ApolloClient, { gql } from "apollo-boost";
+import React, { useEffect, useState } from "react";
 import Button from "../../components/button/Button";
+import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import { openSource } from "../../portfolio";
 import { greeting } from "../../portfolio.js";
+import "./Project.css";
 
 export default function Projects() {
   const [repo, setrepo] = useState([]);
 
   useEffect(() => {
     getRepoData();
-  }, []);
+  }, [getRepoData]);
 
   function getRepoData() {
     const client = new ApolloClient({

@@ -2,6 +2,7 @@
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "logoPath": "subletSage.png",
       "name": "Sublet Sage",
       "createdAt": "2023-12-02T16:26:54Z",
       "url": "https://subletSage.xyz",
@@ -18,16 +19,17 @@
         },
         {
           "name": "Python",
-          "iconifyClass": "logos-python"
+          "iconifyClass": "simple-icons:python"
         }
       ]
     },
     {
       "id": "R_kgDOG_vYHA",
+      "logoPath": "cacheit.jpeg",
       "name": "Cache-it",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://cache-it.app",
-      "description": "Hunt in the real-world for digital items that unlock rewards with your favorite brands.",
+      "description": "Use AR to hunt in the real-world for on-chain digital items that unlock rewards with your favorite brands.",
       "isFork": false,
       "languages": [
         {
@@ -46,6 +48,7 @@
     },
     {
       "id": "R_kgDOG_vYHA",
+      "logoPath": "teamDiff.jpeg",
       "name": "TeamDiff",
       "createdAt": "2022-01-11T20:41:33Z",
       "url": "https://teamdiff.xyz",
@@ -68,15 +71,16 @@
     },
     {
       "id": "R_kgDOG0_8uQ",
+      "logoPath": "freeeats.png",
       "name": "FreeEats",
       "createdAt": "2020-08-01T14:50:20Z",
       "url": "https://freeeats.app",
-      "description": "Find free food and reduce college food waste with FreeEats",
+      "description": "Get real-time updates on free food availabilitiy and help reduce college food waste with FreeEats.",
       "isFork": false,
       "languages": [
         {
           "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "iconifyClass": "simple-icons:javascript"
         },
         {
           "name": "React",
@@ -90,6 +94,7 @@
     },
     {
       "id": "R_kgDOGcPKSQ",
+      "logoPath": "getwoke.jpeg",
       "name": "GetWoke",
       "createdAt": "2020-02-03T17:56:07Z",
       "url": "https://www.youtube.com/channel/UCWDtHf2Eh0opMAP-6DF1rgQ",
