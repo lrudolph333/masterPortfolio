@@ -364,6 +364,24 @@ const certifications = {
       alt_name: "Skandalaris Center",
       color_code: "#BC0A3F",
     },
+    {
+      title: "Letter of Acknowledgement",
+      subtitle: "- Dr. Anne Baril",
+      logo_path: "washu.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1_9BRpIa7dZ6IAH7GGqoVLiKXSs4DEkd7/view?usp=sharing",
+      alt_name: "WashU",
+      color_code: "#BC0A3F",
+    },
+    {
+      title: "Letter of Reccomendation",
+      subtitle: "- Diversity Director Mahtab Mahmoodzadeh",
+      logo_path: "overlake.jpeg",
+      certificate_link:
+        "https://drive.google.com/file/d/15NXtmPfgi75LNmi7FStcMLuhZ10_19Qs/view?usp=sharing",
+      alt_name: "Skandalaris Center",
+      color_code: "#325920",
+    },
   ],
 };
 
