@@ -497,6 +497,17 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
+          title: "Founder",
+          company: "Brothas Express",
+          company_url: "https://www.instagram.com/brothas_express/",
+          logo_path: "Brothas_Express_Logo.png",
+          duration: "Jan 2024 - Present",
+          location: "Remote",
+          description:
+            "Facilitating a reflective, expressive conversation space for Black men to deconstruct damaging patriarchal ideals and redefine healthy, thriving manhood.",
+          color: "#40011E",
+        },
+        {
           title: "President",
           company: "Black Men's Coalition",
           company_url: "https://www.instagram.com/bmc_washu/",
@@ -504,7 +515,7 @@ const experience = {
           duration: "May 2022 - May 2023",
           location: "St. Louis, MO",
           description:
-            "Oversee and drive the organization of programming aimed at facilitating brotherhood, stimulating personal development, and supporting academic excellence amongst Black Men at WashU",
+            "Oversee and drive the organization of programming aimed at facilitating brotherhood, stimulating personal development, and supporting academic excellence amongst Black Men at WashU.",
           color: "#0C9D58",
         },
         {
