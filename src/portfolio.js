@@ -75,6 +75,13 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
+  {
+    name: "Spotify",
+    link:
+      "https://open.spotify.com/artist/0ZV8ugYvSJMFiOEtwgvEtt?si=DYjdOXa6SOW1fzVL5fvk-w",
+    fontAwesomeIcon: "fa-spotify", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#1DB954", // Reference https://simpleicons.org/?q=instagram
+  },
 ];
 
 const skills = {
