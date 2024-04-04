@@ -1,9 +1,12 @@
 name: Pull Request Creation
 
 on:
+  # Add the `workflow_dispatch` event if you want to be able to manually run this workflow from the UI. For more information, see [`workflow_dispatch`](/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch).
+  workflow_dispatch:
+  # Add the `push` event, so that the workflow runs automatically every time a commit is pushed to a branch called `main`. For more information, see [`push`](/actions/using-workflows/events-that-trigger-workflows#push).
   push:
     branches:
-      - all
+      - main
 
 jobs:
   pullRequestRelease:
