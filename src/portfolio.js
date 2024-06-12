@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Trey Rudolph Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://treyr.me/",
   },
 };
 
@@ -63,12 +63,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/trey.rudolph.56/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
+  // {
+  //   name: "Facebook",
+  //   link: "https://www.facebook.com/trey.rudolph.56/",
+  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  // },
   {
     name: "Instagram",
     link: "https://www.instagram.com/icetrey12/",
@@ -91,7 +91,7 @@ const skills = {
       imagePath: "fullStack.png",
       // fileName: "FullStackImg",
       skills: [
-        "⚡ Launching + maintaing mobile applications using React Native with 1000+ users",
+        "⚡ Launching + maintaining React Native mobile applications with 1000+ users",
         "⚡ Creating application backend in Node, Firebase, and Express",
         "⚡ Building responsive website front end using React and Material UI",
       ],
@@ -322,7 +322,7 @@ const degrees = {
       descriptions: [
         "⚡ Admitted to selective program (<2%) to combine educational opportunity",
         "⚡ Studied advanced entrepreneurship, software development, network security, data analytics and financial management coursework",
-        "⚡ Completed coursework in 7 semesters with 3.44 GPA",
+        "⚡ Completed coursework in 7 semesters with 3.5 GPA",
         "⚡ Admitted to competitive  Entrepreneurial Scholars cohort, and recipient of Skandalaris Honors in Entrepreneurship award",
       ],
       website_link:
@@ -699,17 +699,17 @@ const contactPageData = {
 };
 
 export {
-  settings,
-  seo,
-  greeting,
-  socialMediaLinks,
-  skills,
-  competitiveSites,
-  degrees,
   certifications,
-  experience,
-  projectsHeader,
-  publicationsHeader,
-  publications,
+  competitiveSites,
   contactPageData,
+  degrees,
+  experience,
+  greeting,
+  projectsHeader,
+  publications,
+  publicationsHeader,
+  seo,
+  settings,
+  skills,
+  socialMediaLinks,
 };
