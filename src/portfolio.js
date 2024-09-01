@@ -632,15 +632,15 @@ const publications = {
       url:
         "https://skandalaris.wustl.edu/blog/2021/07/30/trey-rudolph-freeeats/",
     },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "A Whole Heart",
-      createdAt: "2020-03-06T16:26:54Z",
-      description:
-        "Accepted Submission to WashU's Black Anthology Digital Collection ",
-      url:
-        "https://padlet.com/blackanthology/essential-s-vkfuomh8azvs51gk/wish/1012911457",
-    },
+    // {
+    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
+    //   name: "A Whole Heart",
+    //   createdAt: "2020-03-06T16:26:54Z",
+    //   description:
+    //     "Accepted Submission to WashU's Black Anthology Digital Collection ",
+    //   url:
+    //     "https://padlet.com/blackanthology/essential-s-vkfuomh8azvs51gk/wish/1012911457",
+    // },
     // {
     //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
     //   name: "Artificial Intelligence Paper",
