@@ -72,7 +72,8 @@ const socialMediaLinks = [
   {
     name: "Film Galleries",
     link: "https://tgood.pixieset.com/",
-    fontAwesomeIcon: "fa-film", // Reference https://fontawesome.com/icons/instagram?style=brands
+    fontAwesomeClass: "fas", // instead of default "fab"
+    fontAwesomeIcon: "fa-film",
     backgroundColor: "#36D9C8", // Reference https://simpleicons.org/?q=instagram
   },
   {
