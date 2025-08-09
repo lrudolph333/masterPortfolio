@@ -70,6 +70,12 @@ const socialMediaLinks = [
   //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   // },
   {
+    name: "Film Galleries",
+    link: "https://tgood.pixieset.com/",
+    fontAwesomeIcon: "fa-film", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#36D9C8", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
     name: "Instagram",
     link: "https://www.instagram.com/icetrey12/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
