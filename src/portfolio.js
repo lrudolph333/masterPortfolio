@@ -19,10 +19,10 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Trey Rudolph",
+  title: "Trey Good",
   logo_name: "Trey   III",
   signature_path: "signature.png",
-  nickname: "Trey Good",
+  nickname: "Trey Rudolph",
   subTitle:
     "An entrepreneur at heart with a proven track record of jump-starting projects to completion, organizing teams to achieve more together, and prioritizing marginalized communities.",
   resumeLink: "https://1drv.ms/w/s!Au0TduYgsJ1Ahfx7Vqfi5-scq_kvmg?e=YWJ1f9",
@@ -45,50 +45,57 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/channel/UCWDtHf2Eh0opMAP-6DF1rgQ",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  // {
+  //   name: "YouTube",
+  //   link: "https://www.youtube.com/channel/UCWDtHf2Eh0opMAP-6DF1rgQ",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
   {
     name: "Gmail",
     link: "mailto:trey.ru.iii@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "X-Twitter",
-    link: "https://twitter.com/T_Goody3",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
+  // {
+  //   name: "X-Twitter",
+  //   link: "https://twitter.com/T_Goody3",
+  //   fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+  //   backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
+  // },
   // {
   //   name: "Facebook",
   //   link: "https://www.facebook.com/trey.rudolph.56/",
   //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
   //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   // },
-  {
-    name: "Film Galleries",
-    link: "https://tgood.pixieset.com/",
-    fontAwesomeClass: "fas", // instead of default "fab"
-    fontAwesomeIcon: "fa-film",
-    backgroundColor: "#36D9C8", // Reference https://simpleicons.org/?q=instagram
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/icetrey12/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
-  {
-    name: "Spotify",
-    link:
-      "https://open.spotify.com/artist/0ZV8ugYvSJMFiOEtwgvEtt?si=DYjdOXa6SOW1fzVL5fvk-w",
-    fontAwesomeIcon: "fa-spotify", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#1DB954", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Film Galleries",
+  //   link: "https://tgood.pixieset.com/",
+  //   fontAwesomeClass: "fas", // instead of default "fab"
+  //   fontAwesomeIcon: "fa-film",
+  //   backgroundColor: "#36D9C8", // Reference https://simpleicons.org/?q=instagram
+  // },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/icetrey12/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
+  // {
+  //   name: "Substack",
+  //   link:
+  //     "https://open.spotify.com/artist/0ZV8ugYvSJMFiOEtwgvEtt?si=DYjdOXa6SOW1fzVL5fvk-w",
+  //   iconifyClassname: "simple-icons:substack", // Using Iconify since FontAwesome doesn't have Substack yet
+  //   backgroundColor: "#FF6719", // Substack brand color from https://simpleicons.org/?q=substack
+  // },
+  // {
+  //   name: "Spotify",
+  //   link:
+  //     "https://open.spotify.com/artist/0ZV8ugYvSJMFiOEtwgvEtt?si=DYjdOXa6SOW1fzVL5fvk-w",
+  //   fontAwesomeIcon: "fa-spotify", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#1DB954", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
@@ -412,14 +419,14 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Associate Core Infra Engineer",
+          title: "SWE I - Core Infra",
           company: "Slack",
           company_url: "https://slack.com//",
           logo_path: "slack.png",
           duration: "June 2024 - present",
-          location: "Bellevue, WA",
+          location: "NYC, NY",
           description:
-            "I exponentiate our developer productivty by adding robust toolsets to our Data streaming team, as we move to a self-service Kafka solution for Slack.",
+            "I tackle advanced migration projects with large-scale Kafka clusters and exponentiate our developer productivty by adding robust toolsets as we move to a self-service Kafka solution for Slack.",
           color: "#4A154B",
         },
         {
@@ -516,10 +523,21 @@ const experience = {
           company_url: "https://www.instagram.com/brothas_express/",
           logo_path: "Brothas_Express_Logo.png",
           duration: "Jan 2024 - Present",
-          location: "Remote",
+          location: "Brooklyn, NY",
           description:
             "Facilitating a reflective, expressive conversation space for Black men to deconstruct damaging patriarchal ideals and redefine healthy, thriving manhood.",
           color: "#40011E",
+        },
+        {
+          title: "Volunteer",
+          company: "Seattle Backpack Brigade",
+          company_url: "https://www.backpackbrigade.org/",
+          logo_path: "backpack_brigade.jpg",
+          duration: "November 2024 - May 2025",
+          location: "Seattle, WA",
+          description:
+            "Every Thursday, packaged, organized, and loaded backpacks with food for delivery to schoolchidren suffering from weekend food insecurity.",
+          color: "#0C9D58",
         },
         {
           title: "President",
@@ -672,9 +690,8 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-
     // profile_image_path: "TreySeniorPhoto.jpeg",
-    profile_image_path: "TreySeniorPhoto2.jpg",
+    profile_image_path: "selfie_headshot.JPG",
     description:
       "Feel free to message me on any social media. I check Instagram and my email the most.",
     description2:
