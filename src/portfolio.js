@@ -25,7 +25,8 @@ const greeting = {
   nickname: "Trey Rudolph",
   subTitle:
     "An entrepreneur at heart with a proven track record of jump-starting projects to completion, organizing teams to achieve more together, and prioritizing marginalized communities.",
-  resumeLink: "https://1drv.ms/w/s!Au0TduYgsJ1Ahfx7Vqfi5-scq_kvmg?e=YWJ1f9",
+  resumeLink:
+    "https://1drv.ms/w/c/409db020e67613ed/IQCdDa0jX_85QbrhdijTRHcfAa3r6tIzS0WZjIiQSpg5ohI?e=xKaPGw",
   portfolio_repository: "https://github.com/lrudolph333/masterPortfolio",
   githubProfile: "https://github.com/lrudolph333",
 };
@@ -86,7 +87,7 @@ const socialMediaLinks = [
   //   name: "Substack",
   //   link:
   //     "https://open.spotify.com/artist/0ZV8ugYvSJMFiOEtwgvEtt?si=DYjdOXa6SOW1fzVL5fvk-w",
-  //   iconifyClassname: "simple-icons:substack", // Using Iconify since FontAwesome doesn't have Substack yet
+  //   fontAwesomeIcon: "fa-bookmark",
   //   backgroundColor: "#FF6719", // Substack brand color from https://simpleicons.org/?q=substack
   // },
   // {
