@@ -83,13 +83,16 @@ const socialMediaLinks = [
   //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
   //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   // },
-  // {
-  //   name: "Substack",
-  //   link:
-  //     "https://open.spotify.com/artist/0ZV8ugYvSJMFiOEtwgvEtt?si=DYjdOXa6SOW1fzVL5fvk-w",
-  //   fontAwesomeIcon: "fa-bookmark",
-  //   backgroundColor: "#FF6719", // Substack brand color from https://simpleicons.org/?q=substack
-  // },
+  {
+    name: "Substack",
+    link:
+      "https://treygood3.substack.com/",
+    // fontAwesomeIcon: "fa-brands fa-substack",
+    // fontAwesomeClass: "substack",
+    iconifyClassname: "simple-icons:substack",
+    // backgroundColor: "#FFFF49", // Substack brand color from https://simpleicons.org/?q=substack
+    backgroundColor: "#FF6719", // Substack brand color from https://simpleicons.org/?q=substack
+  },
   // {
   //   name: "Spotify",
   //   link:

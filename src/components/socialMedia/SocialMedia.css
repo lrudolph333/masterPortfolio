@@ -33,16 +33,16 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 2.6rem;
-  margin: 0 5px;
+  height: 1.6rem;
+  /* margin: 0 5px; */
   position: relative;
   vertical-align: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 2.6rem;
-  margin-bottom: 10px;
+
+  /* margin-bottom: 10px; */
 }
 
 .icon-button .iconify svg {
