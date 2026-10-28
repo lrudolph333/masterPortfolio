@@ -9,9 +9,9 @@ import { contactPageData, greeting } from "../../portfolio.js";
 import "./ContactComponent.css";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
-const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
+// const blogSection = contactPageData.blogSection;
+// const addressSection = contactPageData.addressSection;
+// const phoneSection = contactPageData.phoneSection;
 
 class Contact extends Component {
   render() {

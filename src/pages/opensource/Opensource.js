@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import TopButton from "../../components/topButton/TopButton";
-import OpensourceCharts from "../../containers/opensourceCharts/OpensourceCharts";
+// import OpensourceCharts from "../../containers/opensourceCharts/OpensourceCharts";
 import Organizations from "../../containers/organizations/Organizations";
 import PullRequests from "../../containers/pullRequests/PullRequests";
 import "./Opensource.css";
